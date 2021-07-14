@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5AFF1FA269F209300A9EE07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AFF1F9269F209300A9EE07 /* AppDelegate.swift */; };
+		C5AFF1FC269F209300A9EE07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AFF1FB269F209300A9EE07 /* SceneDelegate.swift */; };
+		C5AFF1FE269F209300A9EE07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AFF1FD269F209300A9EE07 /* ViewController.swift */; };
+		C5AFF201269F209300A9EE07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5AFF1FF269F209300A9EE07 /* Main.storyboard */; };
+		C5AFF203269F209400A9EE07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5AFF202269F209400A9EE07 /* Assets.xcassets */; };
+		C5AFF206269F209400A9EE07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5AFF204269F209400A9EE07 /* LaunchScreen.storyboard */; };
+		C5AFF211269F209400A9EE07 /* Mentor_AideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AFF210269F209400A9EE07 /* Mentor_AideTests.swift */; };
+		C5AFF21C269F209400A9EE07 /* Mentor_AideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AFF21B269F209400A9EE07 /* Mentor_AideUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5AFF20D269F209400A9EE07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5AFF1EE269F209300A9EE07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5AFF1F5269F209300A9EE07;
+			remoteInfo = "Mentor-Aide";
+		};
+		C5AFF218269F209400A9EE07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5AFF1EE269F209300A9EE07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5AFF1F5269F209300A9EE07;
+			remoteInfo = "Mentor-Aide";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5AFF1F6269F209300A9EE07 /* Mentor-Aide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mentor-Aide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5AFF1F9269F209300A9EE07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5AFF1FB269F209300A9EE07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C5AFF1FD269F209300A9EE07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5AFF200269F209300A9EE07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5AFF202269F209400A9EE07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5AFF205269F209400A9EE07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5AFF207269F209400A9EE07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5AFF20C269F209400A9EE07 /* Mentor-AideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mentor-AideTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5AFF210269F209400A9EE07 /* Mentor_AideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor_AideTests.swift; sourceTree = "<group>"; };
+		C5AFF212269F209400A9EE07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5AFF217269F209400A9EE07 /* Mentor-AideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mentor-AideUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5AFF21B269F209400A9EE07 /* Mentor_AideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor_AideUITests.swift; sourceTree = "<group>"; };
+		C5AFF21D269F209400A9EE07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5AFF1F3269F209300A9EE07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AFF209269F209400A9EE07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AFF214269F209400A9EE07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5AFF1ED269F209300A9EE07 = {
+			isa = PBXGroup;
+			children = (
+				C5AFF1F8269F209300A9EE07 /* Mentor-Aide */,
+				C5AFF20F269F209400A9EE07 /* Mentor-AideTests */,
+				C5AFF21A269F209400A9EE07 /* Mentor-AideUITests */,
+				C5AFF1F7269F209300A9EE07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5AFF1F7269F209300A9EE07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5AFF1F6269F209300A9EE07 /* Mentor-Aide.app */,
+				C5AFF20C269F209400A9EE07 /* Mentor-AideTests.xctest */,
+				C5AFF217269F209400A9EE07 /* Mentor-AideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5AFF1F8269F209300A9EE07 /* Mentor-Aide */ = {
+			isa = PBXGroup;
+			children = (
+				C5AFF1F9269F209300A9EE07 /* AppDelegate.swift */,
+				C5AFF1FB269F209300A9EE07 /* SceneDelegate.swift */,
+				C5AFF1FD269F209300A9EE07 /* ViewController.swift */,
+				C5AFF1FF269F209300A9EE07 /* Main.storyboard */,
+				C5AFF202269F209400A9EE07 /* Assets.xcassets */,
+				C5AFF204269F209400A9EE07 /* LaunchScreen.storyboard */,
+				C5AFF207269F209400A9EE07 /* Info.plist */,
+			);
+			path = "Mentor-Aide";
+			sourceTree = "<group>";
+		};
+		C5AFF20F269F209400A9EE07 /* Mentor-AideTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5AFF210269F209400A9EE07 /* Mentor_AideTests.swift */,
+				C5AFF212269F209400A9EE07 /* Info.plist */,
+			);
+			path = "Mentor-AideTests";
+			sourceTree = "<group>";
+		};
+		C5AFF21A269F209400A9EE07 /* Mentor-AideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5AFF21B269F209400A9EE07 /* Mentor_AideUITests.swift */,
+				C5AFF21D269F209400A9EE07 /* Info.plist */,
+			);
+			path = "Mentor-AideUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5AFF1F5269F209300A9EE07 /* Mentor-Aide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5AFF220269F209400A9EE07 /* Build configuration list for PBXNativeTarget "Mentor-Aide" */;
+			buildPhases = (
+				C5AFF1F2269F209300A9EE07 /* Sources */,
+				C5AFF1F3269F209300A9EE07 /* Frameworks */,
+				C5AFF1F4269F209300A9EE07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mentor-Aide";
+			productName = "Mentor-Aide";
+			productReference = C5AFF1F6269F209300A9EE07 /* Mentor-Aide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5AFF20B269F209400A9EE07 /* Mentor-AideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5AFF223269F209400A9EE07 /* Build configuration list for PBXNativeTarget "Mentor-AideTests" */;
+			buildPhases = (
+				C5AFF208269F209400A9EE07 /* Sources */,
+				C5AFF209269F209400A9EE07 /* Frameworks */,
+				C5AFF20A269F209400A9EE07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5AFF20E269F209400A9EE07 /* PBXTargetDependency */,
+			);
+			name = "Mentor-AideTests";
+			productName = "Mentor-AideTests";
+			productReference = C5AFF20C269F209400A9EE07 /* Mentor-AideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5AFF216269F209400A9EE07 /* Mentor-AideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5AFF226269F209400A9EE07 /* Build configuration list for PBXNativeTarget "Mentor-AideUITests" */;
+			buildPhases = (
+				C5AFF213269F209400A9EE07 /* Sources */,
+				C5AFF214269F209400A9EE07 /* Frameworks */,
+				C5AFF215269F209400A9EE07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5AFF219269F209400A9EE07 /* PBXTargetDependency */,
+			);
+			name = "Mentor-AideUITests";
+			productName = "Mentor-AideUITests";
+			productReference = C5AFF217269F209400A9EE07 /* Mentor-AideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5AFF1EE269F209300A9EE07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					C5AFF1F5269F209300A9EE07 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					C5AFF20B269F209400A9EE07 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = C5AFF1F5269F209300A9EE07;
+					};
+					C5AFF216269F209400A9EE07 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = C5AFF1F5269F209300A9EE07;
+					};
+				};
+			};
+			buildConfigurationList = C5AFF1F1269F209300A9EE07 /* Build configuration list for PBXProject "Mentor-Aide" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5AFF1ED269F209300A9EE07;
+			productRefGroup = C5AFF1F7269F209300A9EE07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5AFF1F5269F209300A9EE07 /* Mentor-Aide */,
+				C5AFF20B269F209400A9EE07 /* Mentor-AideTests */,
+				C5AFF216269F209400A9EE07 /* Mentor-AideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5AFF1F4269F209300A9EE07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AFF206269F209400A9EE07 /* LaunchScreen.storyboard in Resources */,
+				C5AFF203269F209400A9EE07 /* Assets.xcassets in Resources */,
+				C5AFF201269F209300A9EE07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AFF20A269F209400A9EE07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AFF215269F209400A9EE07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5AFF1F2269F209300A9EE07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AFF1FE269F209300A9EE07 /* ViewController.swift in Sources */,
+				C5AFF1FA269F209300A9EE07 /* AppDelegate.swift in Sources */,
+				C5AFF1FC269F209300A9EE07 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AFF208269F209400A9EE07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AFF211269F209400A9EE07 /* Mentor_AideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AFF213269F209400A9EE07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AFF21C269F209400A9EE07 /* Mentor_AideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5AFF20E269F209400A9EE07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5AFF1F5269F209300A9EE07 /* Mentor-Aide */;
+			targetProxy = C5AFF20D269F209400A9EE07 /* PBXContainerItemProxy */;
+		};
+		C5AFF219269F209400A9EE07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5AFF1F5269F209300A9EE07 /* Mentor-Aide */;
+			targetProxy = C5AFF218269F209400A9EE07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5AFF1FF269F209300A9EE07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5AFF200269F209300A9EE07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5AFF204269F209400A9EE07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5AFF205269F209400A9EE07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5AFF21E269F209400A9EE07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5AFF21F269F209400A9EE07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5AFF221269F209400A9EE07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mentor-Aide/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.Mentor-Aide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5AFF222269F209400A9EE07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mentor-Aide/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.Mentor-Aide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C5AFF224269F209400A9EE07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mentor-AideTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.Mentor-AideTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mentor-Aide.app/Mentor-Aide";
+			};
+			name = Debug;
+		};
+		C5AFF225269F209400A9EE07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mentor-AideTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.Mentor-AideTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mentor-Aide.app/Mentor-Aide";
+			};
+			name = Release;
+		};
+		C5AFF227269F209400A9EE07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mentor-AideUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.Mentor-AideUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mentor-Aide";
+			};
+			name = Debug;
+		};
+		C5AFF228269F209400A9EE07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mentor-AideUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.Mentor-AideUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mentor-Aide";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5AFF1F1269F209300A9EE07 /* Build configuration list for PBXProject "Mentor-Aide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5AFF21E269F209400A9EE07 /* Debug */,
+				C5AFF21F269F209400A9EE07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5AFF220269F209400A9EE07 /* Build configuration list for PBXNativeTarget "Mentor-Aide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5AFF221269F209400A9EE07 /* Debug */,
+				C5AFF222269F209400A9EE07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5AFF223269F209400A9EE07 /* Build configuration list for PBXNativeTarget "Mentor-AideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5AFF224269F209400A9EE07 /* Debug */,
+				C5AFF225269F209400A9EE07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5AFF226269F209400A9EE07 /* Build configuration list for PBXNativeTarget "Mentor-AideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5AFF227269F209400A9EE07 /* Debug */,
+				C5AFF228269F209400A9EE07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5AFF1EE269F209300A9EE07 /* Project object */;
+}
